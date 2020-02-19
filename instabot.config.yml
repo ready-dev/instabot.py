@@ -1,0 +1,56 @@
+---
+login: "YOUR_USERNAME"
+password: "YOUR_PASSWORD"
+
+debug: 0
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0"
+
+tag_list: ["창원", "마산", "경남", "맛집", "상남동", "합성동", "경남대", "댓거리", "진해", "선팔", "맞팔", "인스타그램"]
+tag_blacklist: ["sex", "porno"]
+
+like_per_day: 196
+max_like_for_one_tag: 36
+media_min_like: 20
+media_max_like: 200
+like_followers_per_run: 0
+
+unlike_per_day: 0
+time_till_unlike: 259200
+
+follow_per_day: 156
+follow_time: 259200
+follow_attempts: 10
+user_min_follow: 200
+user_max_follow: 2200
+
+unfollow_per_day: 199
+unfollow_break_min: 3
+unfollow_break_max: 17
+unfollow_selebgram: false
+unfollow_probably_fake: true
+unfollow_inactive: true
+unfollow_recent_feed: false
+unfollow_whitelist: []
+
+unwanted_username_list: ["free", "travel", "shop", "store", "sex", "online"]
+comments_per_day: 0
+comment_list: [
+        ["안녕하세요!", "피드잘봤어요!", "피드돌다왔어요ㅎ", "우연히 들렸어요"],
+        ["피드 좋아요~", "친하게지내용", "ㅎ!", "하트눌렀어요~", "팔로했어요"],
+        ["좋은 하루 되세요:)", "제 피드도 놀러오세요ㅎ", "반사오세요", "😊", "맞팔해요"],
+        [
+            "🙌",
+            "🙏",
+            "👍",
+            "⭐",
+            "🎁",
+            "😆",
+            "👏",
+            "👋",
+            "🖐",
+            "🎈",
+            "📷",
+            "🤗",
+        ],
+        [".", "..", "...", "!", "!!", "!!!"],
+    ]
